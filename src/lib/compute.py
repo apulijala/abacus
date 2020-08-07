@@ -5,7 +5,10 @@ class Compute(object):
         self.operator = operator
 
     def add(self, a, b):
-        pass 
+        sum = 0
+        for item in self.operands:
+            sum += item 
+        print(sum) 
 
     def subtract(self, a, b):
         difference = 0
