@@ -9,5 +9,5 @@ class Compute(object):
         pass 
     
     def divide(self, a, b):
-        pass 
+        return a/b
     
