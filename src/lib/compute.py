@@ -8,16 +8,19 @@ class Compute(object):
         pass 
 
     def subtract(self, a, b):
-        pass 
+        difference = 0
+        for item in self.operands:
+            difference -= item 
+        print(difference)
 
     def multiply(self):
         product = 1
         for item in self.operands:
             product *= item 
         print(product)
-
-
     
     def divide(self, a, b):
         return a/b
     
+    def mytest(self, a, b):
+        return "test"
