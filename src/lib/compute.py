@@ -10,12 +10,15 @@ class Compute(object):
             sum += item 
         print(sum) 
 
+    # Enabling subtraction here. 
+
     def subtract(self, a, b):
         difference = 0
         for item in self.operands:
             difference -= item 
         print(difference)
 
+    # Enabling Multiplicaton here. 
     def multiply(self):
         product = 1
         for item in self.operands:
