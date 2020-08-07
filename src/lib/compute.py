@@ -3,6 +3,7 @@ class Compute(object):
     def __init__(self, operands,operator):
         self.operands = operands
         self.operator = operator
+        
 
     def add(self, a, b):
         pass 
