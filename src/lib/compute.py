@@ -24,8 +24,5 @@ class Compute(object):
 
     
     def divide(self, a, b):
-        quotient = 1
-        for item in self.operands:
-            quotient /= item 
-        print(quotient)
+        return a/b
     
