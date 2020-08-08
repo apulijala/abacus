@@ -6,11 +6,7 @@ class Compute(object):
         
 
     def add(self, a, b):
-        sum = 0
-        for item in self.operands:
-            sum += item 
-        print(sum)
-
+        pass 
 
     def subtract(self, a, b):
         pass 
