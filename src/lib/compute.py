@@ -13,11 +13,7 @@ class Compute(object):
 
 
     def subtract(self, a, b):
-        difference = 0
-        for item in self.operands:
-            difference += item 
-        print(difference)
-
+        pass 
 
     def multiply(self):
         product = 1
