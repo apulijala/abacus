@@ -28,5 +28,8 @@ class Compute(object):
 
     
     def divide(self, a, b):
-        return a/b
+        result = 1
+        for item in self.operands:
+            result = result / item 
+        print(result)
     
